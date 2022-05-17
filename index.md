@@ -1,40 +1,34 @@
+<style>
+.note {
+  min-height: 17px;
+  margin: 4px 0 2px;
+    margin-bottom: 2px;
+  font-size: 12px;
+  color: #000000;
+  font-size: 14px !important;
+  padding: 16px !important;
+  margin-bottom: 24px !important;
+  border-color: #000000; !important;
+  background-color: rgba(84,174,255,0.4); !important;
+  border-radius: 4px !important;
+  border: 1px solid #000000; !important;
+}
+
+img[alt=drawing] { width: 200px; }
+</style>
+
+
 ## Bienvenue sur notre index
 
 Nous sommes le groupe 19 ☀️
 
-## hellloooo
-**hello**
-_hello_
-🌻
+Le sujet que nous avons choisi est sur les vidéos de cuisines.
 
-### Markdown
+`System.out.println("Hello");`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> To be or not to be
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Aanaelle/docker-sae203/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| numero      | numero      |
+| ----------- | ----------- |
+| 1           | 2           |
+| blavla      | fvidfhn     |
