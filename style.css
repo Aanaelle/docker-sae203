@@ -1,23 +1,10 @@
-.container
-{
-    width : 100%;
-    margin: 100px auto;
-}
 
-.input
-{
-    font-size : 25px;
-    width : 80%;
-}
+.videos {
 
-.suggestion
-{
-    font-size: 22px;
-    width : 60%;
-}
-
-.suggestion:hover
-{
-    background-color : cornflowerblue;
-    color : #ffff;
+    width :30% ;
+    height: 360px; 
+    padding-left: 25%;
+    padding-right: 25%;
+    border: none;
+    margin-top: 10%;
 }

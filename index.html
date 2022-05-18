@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title> SAE203 </title>
-</head>
-<body>
-    <div class="container">
-        <input class="input" id="searchInput" type="text" placeholder="Search..."/>
-        <div id="suggestions"></div>
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title> SAE203 </title>
+    </head>
     
-    <script src="code.js"></script>
+    <body>
+        <input id="searchbar" onkeyup="search_videos()" type="text"
+        name="search" placeholder="Recherche recette..">
+        
+        <script src="code.js"></script>
+        <ul>
+            <li><iframe class="videos" src="https://www.youtube.com/embed/IA0HNreJ8fg" allowfullscreen></iframe> Test</li>
+        <li><iframe class="videos" src="https://www.youtube.com/embed/8uLSW_-Z3g4" allowfullscreen></iframe></li>
+        <li><iframe class="videos" src="https://www.youtube.com/embed/WooxWr9OHHE" allowfullscreen></iframe></li>
+        <li><iframe class="videos" src="https://www.youtube.com/embed/bHveR1SfKp4" allowfullscreen></iframe></li>
+        <li><iframe class="videos" src="https://www.youtube.com/embed/t-wBHPmIU30" allowfullscreen></iframe></li>
+        <li><iframe class="videos" src="https://www.youtube.com/embed/qjL2wNOZZ4E" allowfullscreen></iframe></li>
+        <li><iframe class="videos" src="https://www.youtube.com/embed/i-m7VUJPZDM" allowfullscreen></iframe></li>
+        <li><iframe class="videos" src="https://www.youtube.com/embed/Gubmnfhrr0k" allowfullscreen></iframe></li>
+
+        </ul>
+        
+       
+    </body>
     
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-</iframe>
-</body>
 </html>
+
+

@@ -1,7 +1,7 @@
-const persons = 
+/*const persons = 
 [
 
-    {name:'Daniel', url:},
+    {name:'Daniel'},
     {name:'Fischl'},
     {name:'Thoma' },
     {name:'Qiqi'  },
@@ -30,4 +30,20 @@ searchinput.addEventListener('keyup', function()
     }
     
     document.getElementById('suggestions').innerHTML = suggestion;
-})
+})*/
+
+
+function search_videos() {
+    let input = document.getElementById('searchbar').value
+    input=input.toLowerCase();
+    let x = document.getElementsByClassName('videos');
+      
+    for (i = 0; i < x.length; i++) { 
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display="none";
+        }
+        else {
+            x[i].style.display="list-item";                 
+        }
+    }
+}
