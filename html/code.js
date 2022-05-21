@@ -1,4 +1,5 @@
-function search_videos() {
+function search_videos() 
+{
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
     let x = document.getElementsByClassName('videos');
