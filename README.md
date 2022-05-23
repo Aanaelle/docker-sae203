@@ -7,7 +7,7 @@ Pour construire l'image :
 
 `docker build -t grp19-img .`
 
-Pour lancer le docker : 
+Pour lancer l'image : 
 
 `docker run --name grp19-docker -p -d 35439:80 grp19-img`
 
