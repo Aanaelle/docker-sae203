@@ -1,18 +1,21 @@
-# docker-sae203
-groupe 19
+# Projet SAE 2.03 Equipe 19
 
-# Bienvenue dans notre Docker 🌻
+## CuisiOeuf : videos de cuisine
 
-Pour construire l'image :
+- Installation d'un service debian avec docker
 
-`docker build -t grp19-img .`
+## Membres de l'équipe
 
-Pour lancer l'image : 
+- A1 - DESPLAN   Alexandra
+- A1 - GRANDSIRE Tom
+- A2 - MICHEL    Alexandre
+- A2 - MIMIFIR   Anaëlle
 
-`docker run --name grp19-docker -p -d 35439:80 grp19-img`
+## Liens vers le site web du projet
 
-Puis dans un navigateur, tapez : 
+[docker-sae203](https://Aanaelle.github.io/docker-sae203/)
 
-`di-docker:35439` ou bien `localhost:35439`
+## Liens vers le dépôt github du projet
+_(Le liens doit être ```https://github.com/<votre-utilisateur-github>/docker-sae203/```)_
 
-
+[docker-sae203](https://github.com/Aanaelle/docker-sae203/)
