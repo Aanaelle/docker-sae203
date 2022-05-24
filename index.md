@@ -12,7 +12,8 @@ blabla
 
 ### Création du site html du projet
 
-Dans un premier temps, nous avons décider du thème de notre site web : les vidéos de cuisine.
+Pour commencer, nous devions trouver un sujet lié à l'installation des services réseaux, nous avons donc opté pour des vidéos à la demande et plus particulièrement sur les vidéos de cuisine.
+Pour élaborer le site, nous avons utilisé du HTML, du CSS et du JavaScript. Le JavaScript a été utile pour pouvoir faire un système de barre de recherche. Nous n'avions jamais fait de JavaScript donc il nous a été très compliqué de prendre ce langage en main. Nous avons téléchargé puis implémenté quelques vidéos dans des balises "vidéos". Pour établir le système de filtrage en fonction de ce qu'on écrivait dans la barre de recherche et donner un nom aux vidéos (un peu comme sur Youtube par exemple, nous avons mis les vidéos dans une liste non-ordonnée puis 
 Ensuite, nous avons codé le site en utilisant du HTML, du CSS et du JavaScript. On a téléchargé quelques vidéo pour les intégrés dans le site.
 C'est avec le javascript que nous avons codé la barre de recherche. 
 
