@@ -13,4 +13,6 @@ Pour élaborer le site, nous avons utilisé du HTML, du CSS et du JavaScript. Le
 Afin de faciliter la création de l'image, nous avons utilisé un Dockerfile, qui nous permet d'installer tous les packages que l'on souhaite sur notre image.
 Un Dockerfile est un fichier qui va indiquer dans quel environnement va se trouver le conteneur et les instructions que l'image devra exécuter une fois lancer.
 
+Dans le Dockerfile, nous avons utiliser l'image de debian, ensuite on a installé les packages et services nginx, puis copier le répertoire HTML dans l'image, et enfin, on a exposé le port 80 et lancé le service nginx au démarrage du conteneur. 
+
 
