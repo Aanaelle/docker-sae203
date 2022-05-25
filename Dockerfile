@@ -1,8 +1,16 @@
-# Utiliser l'image debian
+# Utiliser l'image debian officielle comme image parent
 FROM debian:latest
 
-# Copier le répertoire html du répertoire courant vers le répertoire de l'image /usr/.../htdocs
-COPY ./html/var/www/html
+# Installer des services et des packages
+RUN  apt-get update && \
+    apt-get -y install  \
+    nginx
 
-# Rendre le port 80 accessible au monde en dehors de ce conteneur
+# Copier les fichiers de l'hôte vers l'image
+COPY ./html /var/www/html/
+
+# Exposer le port 80
 EXPOSE 80
+
+# Lancer le service nginx au démarrage du conteneur
+CMD ["nginx", "-g", "daemon off;"]
