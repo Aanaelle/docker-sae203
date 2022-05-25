@@ -3,11 +3,6 @@
 
 Nous sommes le groupe 19 ☀️
 
-### Découverte du docker
-
-blabla
-
-
 ### Création du site html du projet
 
 Pour commencer, nous devions trouver un sujet lié à l'installation des services réseaux, nous avons donc opté pour des vidéos à la demande et plus particulièrement sur les vidéos de cuisine.
